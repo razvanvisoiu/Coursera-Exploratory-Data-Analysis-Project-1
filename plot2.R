@@ -5,3 +5,4 @@ date_time<-strptime(paste(data_February_2007$Date,data_February_2007$Time,sep=' 
 png('plot2.png',width=480,height=480)
 plot(date_time,data_February_2007$Global_active_power,xlab='',ylab='Global Active Power(kilowatts)',type='l')
 dev.off()
+
